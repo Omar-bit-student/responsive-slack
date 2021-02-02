@@ -1,0 +1,523 @@
+/*
+background-grey: #F4F3F4;
+button-purple: #192592
+main-titles dark-grey: #2C303F;
+paragraph grey: #5b5e6d;
+nav grey: #5b5e6d;
+*/
+/*
+background-grey: #F4F3F4;
+button-purple: #192592
+main-titles dark-grey: #2C303F;
+paragraph grey: #5b5e6d;
+nav grey: #5b5e6d;
+*/
+
+
+
+body {
+    width: 100%;
+    display: block;
+    font-family: 'Lato', sans-serif;
+    flex-direction: column;
+}
+
+nav {
+
+    display: flex;
+    margin: 2%;
+    justify-content: space-between;
+    border-bottom: 1px solid grey
+}
+
+nav i {
+    margin: 2%;
+    align-items: left;
+
+}
+
+nav img {
+    width: 100px;
+
+}
+
+header {
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+header h1 {
+    order: 0;
+    font-weight: bold;
+    font-size: 90px;
+    margin-bottom: 10px;
+
+}
+
+.paragraph1 {
+
+    left: 50%;
+    font-size: 35px;
+    
+}
+
+header img {
+
+    align-items: center;
+    width: 30%
+
+}
+
+.bloque_cajas_1 {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+#first {
+
+    width: 100%;
+    height: 80px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #4049AA;
+    align-self: center;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin: 5px;
+    border: solid 1px;
+
+}
+
+#second {
+
+    width: 100%;
+    height: 80px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: white;
+    align-self: center;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    border: solid 1px;
+    margin: 10px;
+
+}
+
+body>header>.sign {
+    align-self: center;
+    font-size: 35px;
+}
+
+main {
+
+    font-style: bold;
+    font-size: 60px;
+
+}
+
+#company {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+    background-color: #F5F5F5;
+    height: 100%;
+}
+
+#company>h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-style: bold;
+    font-size: 60px;
+    text-align: center;
+
+
+}
+
+#company>p {
+
+    font-size: 35px;
+    text-align: center;
+
+
+}
+
+#company>button {
+
+    width: 75%;
+    height: 80px;
+    font-size: 25px;
+    align-self: center;
+    border: solid 1px;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    color: #4049AA;
+
+}
+
+#company_images {
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    margin-top: 25px;
+
+}
+
+
+#company_images>img {
+
+    padding: 20px;
+    width: 300px;
+    align-self: center;
+}
+
+
+
+
+main> #sign {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.bloque_cajas_2 {
+
+    display: flex;
+    flex-direction: column;
+}
+
+#sign>p {
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+    align-self: center;
+    font-size: 35px;
+
+}
+
+#second1 {
+
+    width: 80%;
+    height: 80px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: white;
+    align-self: center;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    border: solid 1px;
+    margin: 10px;
+
+}
+
+#first2 {
+
+    width: 80%;
+    height: 80px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #4049AA;
+    align-self: center;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin: 5px;
+    border: solid 1px;
+
+}
+
+footer #list {
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: left;
+    font-size: 35px;
+
+
+}
+
+#list>ul {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+ul>li:first-child {
+    font-weight: bold;
+}
+
+ul>li {
+    margin: 15px;
+}
+
+footer>#final {
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5F5;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+
+}
+
+#final>ul>li {
+
+    display: inline;
+    font-size: 25px;
+}
+
+#flag>img {
+    height: 40px;
+}
+
+#flag {
+    display: flex;
+}
+
+.bloqueFlex{
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media (min-width: 962px) and (max-width: 1024px) {
+
+.bloque_cajas_1{
+
+    display: flex;
+    flex-direction: row;
+    margin-right: 150px;
+}
+
+#first {
+
+    width: 35%;
+    height: 80px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #4049AA;
+    align-self: center;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin: 5px;
+    border: solid 1px;
+
+}
+
+#second {
+
+    width: 100%;
+    height: 80px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: white;
+    align-self: center;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    border: solid 1px;
+    margin: 10px;
+
+}
+
+#company>button {
+
+    width: 30%;
+    height: 80px;
+    font-size: 25px;
+    font-weight: 900;
+    align-self: center;
+    border: solid 1px;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    color: #4049AA;
+}
+
+
+#company_images {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+
+#company_images img {
+
+    display: flex; 
+    flex-basis: calc(35% - 40px);  
+    justify-content: center;
+    flex-direction: column;
+    padding: 60px;
+}
+
+.bloqueFlex{
+
+    display: flex;
+    flex-direction: row;
+}
+
+#sign{
+    width: 100%;
+
+}
+
+
+.bloque_cajas_2, button {
+    display: inline;
+    width: 100%;
+}
+
+#second1 {
+
+    width: 35%;
+    height: 80px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: white;
+    align-self: center;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    border: solid 1px;
+    margin: 10px;
+}
+
+#first2 {
+
+    width: 30%;
+    height: 80px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #4049AA;
+    align-self: center;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin: 5px;
+    border: solid 1px;
+}
+}
+
+@media (min-width: 1024px) {
+
+
+#first {
+
+    width: 35%;
+    height: 80px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #4049AA;
+    align-self: center;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin: 5px;
+    border: solid 1px;
+
+}
+
+#second {
+
+    width: 100%;
+    height: 80px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: white;
+    align-self: center;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    border: solid 1px;
+    margin: 10px;
+
+}
+
+#company>button {
+
+    width: 30%;
+    height: 80px;
+    font-size: 25px;
+    font-weight: 900;
+    align-self: center;
+    border: solid 1px;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    color: #4049AA;
+}
+
+
+#company_images {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+
+#company_images img {
+
+    display: flex; 
+    flex-basis: calc(25% - 40px);  
+    justify-content: center;
+    flex-direction: column;
+    padding: 90px;
+}
+
+.bloqueFlex{
+
+    display: flex;
+    flex-direction: row;
+}
+
+#sign{
+    width: 100%;
+
+}
+
+
+.bloque_cajas_2, button {
+    display: inline;
+    width: 100%;
+}
+
+#second1 {
+
+    width: 35%;
+    height: 80px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: white;
+    align-self: center;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    border: solid 1px;
+    margin: 10px;
+}
+
+#first2 {
+
+    width: 30%;
+    height: 80px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #4049AA;
+    align-self: center;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin: 5px;
+    border: solid 1px;
+}
+}
+
